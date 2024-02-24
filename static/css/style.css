@@ -1,0 +1,168 @@
+/* media for mobile */ 
+.cardpad {
+  padding: 2 rem !important;
+}
+@media screen and (min-width: 768px) {
+  .cardpad {
+    padding: 3 rem !important;
+  }
+}
+.btn-secondary {
+  color: #fff !important; }
+
+img {
+  width: 100%; }
+
+.logo {
+  width: 80px; }
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase; }
+
+.social a {
+  margin-right: 0.4rem; }
+
+#showcase {
+  /* background: url(../img/showcase2.jpg) no-repeat top center fixed; */
+  background: url('https://wallpaperaccess.com/full/260164.jpg') no-repeat top center fixed;
+
+  position: sticky;
+  height: 100%;
+  min-height: 710px;
+  /* width: 100%; */
+  background-size: 100%;
+  /* border-radius: 5px; */
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+
+  color: #fff;
+  padding-top: 6rem; }
+  #showcase .home-search {
+    min-height: 400px;
+    position: relative;
+    border-radius: 500px; }
+  #showcase .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 40px;
+    background: rgba(51, 51, 51, 0.8); }
+
+#services {
+  background: url('https://cdn.wallpapersafari.com/60/17/isb1eX.jpg') no-repeat top center fixed;
+  min-height: 300px;
+  position: relative;
+  background-size: 100%;
+
+  overflow: hidden; }
+  #services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(215, 227, 235, 0); }
+
+#showcase-inner {
+  background: url(../img/building.jpg) no-repeat top center ;
+  position: relative;
+  background-size: 100%;
+  overflow: hidden;
+  min-height: 100%; 
+}
+
+  #showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(4, 36, 44, 0.8); }
+    /* background: rgba(255, 134, 107, 0.8); } */
+
+  #showcase-inner.showcase-search {
+    min-height: 100px; }
+
+#showcase-inner2 {
+  background: url('../img/showcase_inner_2.jpg') no-repeat top center;
+  position:relative;
+  overflow: hidden;
+  background-size: 100%;
+
+  min-height: 100%; }
+
+#showcase-inner2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(58, 37, 9, 0.747); }
+    /* background: rgba(255, 134, 107, 0.8); } */
+
+#showcase-inner2.showcase-search {
+    min-height: 270px; 
+}
+
+#showcase-inner3 {
+  background: url('../img/showcase_inner_3.jpg') no-repeat top center;
+  position: relative;
+  overflow: hidden;
+  background-size: 100%;
+  min-height: 100%; 
+}
+
+#showcase-inner3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgba(83, 84, 84, 0.747) , rgba(25, 55, 74, 0.747));
+    /* background: rgba(255, 134, 107, 0.8);  */
+}
+
+  #showcase-inner3.showcase-search {
+    min-height: 270px; }
+
+#work {
+  background-image: url('https://wallpaperaccess.com/full/2028898.jpg');
+  padding: 4rem 0; }
+
+.listing-preview a {
+  position: relative; }
+
+@media (max-width: 991px) {
+  #showcase {
+    padding-top: 4rem; }
+    #showcase h1 {
+      font-size: 40px; }
+  .hide-md-down {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #showcase {
+    padding-top: 3rem; }
+    #showcase h1 {
+      font-size: 40px; }
+    #showcase p {
+      display: none; }
+  #top-bar {
+    text-align: center; }
+    #top-bar .social {
+      text-align: center !important; } }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px; }
+  #showcase-inner h1 {
+    font-size: 40px; } }
