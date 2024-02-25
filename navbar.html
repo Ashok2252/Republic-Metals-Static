@@ -4,13 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Attractive Responsive Navbar</title>
-    <style>
+    <!-- <style>
       /* Basic CSS for navbar */
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-      }
+
       .navbar {
         background-color: #333;
         color: white;
@@ -22,7 +18,7 @@
       .navbar-brand {
         font-size: 24px;
         text-decoration: none;
-        color: white;
+        color: rgb(255, 10, 10);
         margin-left: 20px;
       }
       .navbar-links {
@@ -36,7 +32,7 @@
       }
       .navbar-links a {
         text-decoration: none;
-        color: white;
+        color: rgb(250, 20, 20);
         font-size: 18px;
         transition: color 0.3s ease;
       }
@@ -67,30 +63,67 @@
           display: block;
         }
       }
-    </style>
+    </style> -->
   </head>
   <body>
-    <div class="navbar">
-      <a href="#" class="navbar-brand">Your Logo</a>
-      <ul class="navbar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="navbar-toggle" onclick="toggleNavbar()">
-        &#9776;
-        <!-- Hamburger icon -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Your Brand</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
 
     <script>
-      function toggleNavbar() {
-        var navbarLinks = document.querySelector(".navbar-links");
-        navbarLinks.style.display === "flex"
-          ? (navbarLinks.style.display = "none")
-          : (navbarLinks.style.display = "flex");
-      }
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      var scrollPos = window.pageYOffset;
+
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (sticky < currentScrollPos && scrollPos > currentScrollPos) {
+          navbar.style.top = "0";
+        } else {
+          navbar.style.top = "-50px"; // Replace with the height of your navbar
+        }
+        scrollPos = currentScrollPos;
+      };
     </script>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xM6B5z6W5"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

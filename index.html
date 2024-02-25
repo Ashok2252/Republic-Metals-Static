@@ -13,23 +13,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="#" class="logo left">Logo</a>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </div>
-    </nav>
+    <!-- Navbar Placeholder -->
+    <div id="navbar-placeholder"></div>
 
     <!-- Banner Slider -->
     <div
@@ -393,6 +378,9 @@
       </a>
     </div>
 
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
     <!-- Footer -->
     <div class="bg-light py-2">
       <div class="container text-center">
@@ -407,5 +395,28 @@
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // Function to include navbar
+      function includeNavbar() {
+        fetch("navbar.html")
+          .then((response) => response.text())
+          .then((html) => {
+            document.getElementById("navbar-placeholder").innerHTML = html;
+          });
+      }
+
+      // Function to include footer
+      function includeFooter() {
+        fetch("footer.html")
+          .then((response) => response.text())
+          .then((html) => {
+            document.getElementById("footer-placeholder").innerHTML = html;
+          });
+      }
+
+      // Include navbar and footer
+      includeNavbar();
+      includeFooter();
+    </script>
   </body>
 </html>
