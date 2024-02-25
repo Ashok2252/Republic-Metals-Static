@@ -6,6 +6,11 @@
     <title>ABOUT US | REPUBLIC METALS</title>
     <link rel="icon" href="./static/img/logo.ico" />
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./static/css/all.css" />
     <!-- Bootstrap -->
@@ -14,6 +19,8 @@
     <link rel="stylesheet" href="./static/css/style.css" />
     <!-- Light Box -->
     <link rel="stylesheet" href="./static/css/lightbox.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
 
@@ -512,10 +519,16 @@
 
     </script>
 
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xM6B5z6W5" crossorigin="anonymous"></script>
+
     <script>
         // Function to include navbar
         function includeNavbar() {
-        fetch("navbar.html")
+        fetch("navbar2.html")
             .then((response) => response.text())
             .then((html) => {
             document.getElementById("navbar-placeholder").innerHTML = html;

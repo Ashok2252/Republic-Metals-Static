@@ -4719,7 +4719,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgb(67, 151, 44);
 }
 
 .navbar-dark .navbar-nav .show>.nav-link,
@@ -11624,20 +11624,21 @@ body {
 
 .aboutustext {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
-  color: var(--gray);
-  font-size: 130%;
+  color: gray;
+  font-size: 100%;
   word-spacing: 10;
   letter-spacing: 10;
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
+  font-weight: 400;
 }
 
 
 .missiontext {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
-  color: var(--gray);
-  font-size: 130%;
+  color: gray;
+  font-size: 120%;
   word-spacing: 10;
   letter-spacing: 10;
   margin-left: 20px;
@@ -11651,9 +11652,8 @@ body {
 
 .missiontext:hover {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
-  color: var(--gray);
-  color: #495057;
-  font-size: 130%;
+  color: goldenrod;
+  font-size: 120%;
   word-spacing: 10;
   letter-spacing: 10;
   text-align: justify;
@@ -11663,6 +11663,12 @@ body {
   -o-transition: all .35s ease-in-out;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .missiontext {
+    font-size: 100%; /* Adjust as needed */
+  }
 }
 
 .ourservicestext {
@@ -11998,6 +12004,12 @@ body {
   font-size: 180%;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 100%; /* Adjust as needed */
+  }
 }
 
 
