@@ -216,3 +216,26 @@ img {
       font-size: 30px;
       text-shadow: 2px 2px 10px rgb(49, 49, 49);
   }
+
+  .whatsapp-button {
+    margin-top: -75%; /* This should be the same as the padding-bottom on .image-wrapper */
+}
+
+.image-wrapper::before {
+  float: left;
+  content: "";
+  padding-bottom: 75%; /* This gives a 4:3 aspect ratio. Adjust as needed. */
+}
+
+.image-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.product-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+}

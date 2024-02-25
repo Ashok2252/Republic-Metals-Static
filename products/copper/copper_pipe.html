@@ -25,7 +25,7 @@
         <div class="row text-center">
           <div class="col-md-12">
             <h1 class="display-4">Copper Pipe</h1>
-            <p class="lead"><i class="fas fa-tags"></i> Approx ₹ 850</p>
+            <!-- <p class="lead"><i class="fas fa-tags"></i> Approx ₹ 850</p> -->
           </div>
         </div>
       </div>
@@ -37,12 +37,12 @@
         <nav>
           <ol class="breadcrumb ml-2 mr-2">
             <li class="breadcrumb-item">
-              <a href="home.html" class="hideunderline">
+              <a href="../../home.html" class="hideunderline">
                 <i class="fas fa-home"> &nbsp; </i>Home</a
               >
             </li>
             <li class="breadcrumb-item">
-              <a href="products.html" class="hideunderline">
+              <a href="../../products.html" class="hideunderline">
                 <i class="fas fa-list"> &nbsp; </i>Browse Products
               </a>
             </li>
@@ -55,16 +55,16 @@
     <!-- Listing -->
     <section id="listing">
       <div class="container">
-        <a href="../../products.html" class="btn-hover2 color-2 btn mb-5 ml-2">
+        <!-- <a href="../../products.html" class="btn-hover2 color-2 btn mb-5 ml-2">
           <i class="fas fa-backward"></i> &nbsp;&nbsp;Back To All Products</a
-        >
+        > -->
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 image-wrapper">
             <!-- Home Main Image -->
             <img
-              src="../../static/img/banner/banner_1.jpg"
+              src="../../static/img/products/copper/copper_pipe.png"
               alt="Copper Pipe"
-              class="img-fluid mb-3"
+              class="img-fluid mb-3 product-image"
             />
             <!-- Thumbnails -->
 
@@ -263,7 +263,7 @@
     <script>
       // Function to include navbar
       function includeNavbar() {
-        fetch("../../navbar.html")
+        fetch("../navbar_products.html")
           .then((response) => response.text())
           .then((html) => {
             document.getElementById("navbar-placeholder").innerHTML = html;
@@ -272,7 +272,7 @@
 
       // Function to include footer
       function includeFooter() {
-        fetch("../../footer_products.html")
+        fetch("../footer_products.html")
           .then((response) => response.text())
           .then((html) => {
             document.getElementById("footer-placeholder").innerHTML = html;
