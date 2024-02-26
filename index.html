@@ -323,7 +323,7 @@
     </div> -->
 
     <!-- Client Slider -->
-    <div
+    <!-- <div
       id="clientSlider"
       class="carousel slide container mt-5"
       data-ride="carousel"
@@ -381,10 +381,8 @@
                 alt="Client 4"
               />
             </div>
-            <!-- Add more items as needed -->
           </div>
         </div>
-        <!-- Add more carousel-items as needed -->
       </div>
       <a
         class="carousel-control-prev"
@@ -404,6 +402,256 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+    </div> -->
+
+    <!-- ******************************************************************************************* -->
+    <!-- Client Slider -->
+
+    <section class="section services-section mt-5">
+      <div class="containerfull mb-4">
+        <h3 class="about-title mb-3">OUR CLIENTS</h3>
+
+        <div class="brand-carousel owl-carousel">
+          <div class="single-logo">
+            <img src="./static/img/clients/monte.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img src="./static/img/clients/kvk.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img src="./static/img/clients/sal.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img src="./static/img/clients/vinayak.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img src="./static/img/clients/ttmc.png" alt="" />
+          </div>
+
+          <div class="single-logo">
+            <img src="./static/img/clients/matex.png" alt="" />
+          </div>
+          <!-- <div class="single-logo">
+                <img src="./static/img/clients/bhargav.png" alt="">
+            </div> -->
+        </div>
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+          $(".brand-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsive: {
+              0: {
+                items: 1,
+              },
+              300: {
+                items: 2,
+              },
+              600: {
+                items: 3,
+              },
+              1000: {
+                items: 5,
+              },
+            },
+          });
+        </script>
+        <style>
+          .containerfull {
+            /* border-radius: 200px; */
+            width: 100%;
+            padding-right: 0%;
+            padding-left: 0%;
+          }
+          .section-padding {
+            padding: 50px 0;
+          }
+
+          .brand-carousel {
+            background: rgb(255, 255, 255);
+            margin-top: 2%;
+            display: inline-flex;
+            width: 100%;
+          }
+
+          .owl-dots {
+            text-align: center;
+            margin-top: 4%;
+          }
+
+          .owl-dot {
+            display: inline-block;
+            height: 15px !important;
+            width: 15px !important;
+            background-color: #878787 !important;
+            opacity: 0.8;
+            border-radius: 50%;
+            margin: 0 5px;
+          }
+
+          .owl-dot.active {
+            background-color: #000 !important;
+          }
+
+          .single-logo {
+            min-height: auto;
+            min-width: auto;
+            padding-left: 3%;
+            padding-right: 3%;
+            justify-content: center;
+          }
+        </style>
+      </div>
+    </section>
+
+    <!-- Gallery Start -->
+
+    <div id="references-masonry">
+      <div class="container">
+        <h3 class="about-title mb-3 mt-5">IMAGE GALLERY</h3>
+        <br />
+        <div class="row">
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/copper/copper_pipe.html">
+                <img
+                  src="https://i.pinimg.com/564x/a7/a1/5c/a7a15c648748b1c7a8cb41abbeb3147e.jpg"
+                  alt="Copper Pipe Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Copper Pipe</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/ss/stainless_steel_pipe.html"
+                ><img
+                  src="https://5.imimg.com/data5/SR/HQ/MY-9102377/ss-pipe-304-erw-pipe-304-stainless-steel-pipe-500x500.jpg"
+                  alt="SS Pipe Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">SS Pipe</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/brass/brass_bar.html"
+                ><img
+                  src="https://www.assignmentpoint.com/wp-content/uploads/2020/09/Cupronickel-1.jpg"
+                  alt="Brass Rod Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Brass Rod</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="ss_products.html"
+                ><img
+                  src="https://5.imimg.com/data5/NS/VX/MY-2221186/stainless-steel-fittings-500x500.png"
+                  alt="SS Pipe Fittings Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">SS Pipe Fitting</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/copper/copper_tee.html"
+                ><img
+                  src="https://5.imimg.com/data5/ZW/YB/EA/SELLER-19500498/copper-pipe-fittings-500x500.jpg"
+                  alt="Copper Pipe Fittings Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Copper Pipe Fittings</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/copper/copper_sheet.html"
+                ><img
+                  src="https://media.istockphoto.com/photos/copper-sheets-rolled-metal-products-closeup-picture-id1202779355?k=20&m=1202779355&s=612x612&w=0&h=C66bngO53PwZatsgpUZxF0x9maGZ0Kt8F-CiN3THxz0="
+                  alt="Copper Sheet Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Copper Sheet</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="aluminium_products.html"
+                ><img
+                  src="https://themetalsfactory.com/wp-content/uploads/2019/03/Aluminium-Pipes-Suppliers-Distributors-Factory.jpg"
+                  alt="Aluminium Pipe Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Aluminium Pipe</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="reference-item col-lg-3 col-md-6">
+            <div class="reference">
+              <a href="products/brass/brass_pipe.html"
+                ><img
+                  src="https://www.eckhardtsteel.com/images/cupro-nickel-welded-pipe.jpg"
+                  alt="Brass Pipe Wholesale Distributor in Ahmedabad - Republic Metals"
+                  class="img-fluid card-img-top"
+                />
+                <div class="overlay">
+                  <div class="inner">
+                    <h3 class="h4 reference-title">Brass Pipe</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer Placeholder -->
