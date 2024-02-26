@@ -11671,6 +11671,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .missiontext:hover {
+    font-size: 100%; /* Adjust as needed */
+  }
+}
+
 .ourservicestext {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--gray);
