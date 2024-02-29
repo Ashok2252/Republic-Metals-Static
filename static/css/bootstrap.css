@@ -42,6 +42,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -11626,7 +11627,7 @@ body {
 .aboutustext {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   color: gray;
-  font-size: 100%;
+  font-size: 110%;
   word-spacing: 10;
   letter-spacing: 10;
   padding-left: 20px;
