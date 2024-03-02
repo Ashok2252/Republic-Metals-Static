@@ -1,0 +1,2 @@
+#Robots.txt
+Sitemap: https://www.republicmetals.in/sitemap.xml
