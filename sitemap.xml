@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
-        <loc>https://www.republicmetals.in/</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     
     <!-- About Page -->
     <url>
-        <loc>https://www.republicmetals.in/about.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/about.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Products page -->
     <url>
-        <loc>https://www.republicmetals.in/products.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Other Pages -->
     <url>
-        <loc>https://www.republicmetals.in/contactus.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/contactus.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.republicmetals.in/copper_products.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/copper_products.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.republicmetals.in/ss_products.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/ss_products.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.republicmetals.in/brass_products.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/brass_products.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.republicmetals.in/aluminium_products.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/aluminium_products.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -60,78 +60,78 @@
     <!-- Copper Products --> 
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_angle.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_angle.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_coil.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_coil.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_elbow.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_elbow.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_flat.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_flat.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_foil.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_foil.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_pipe.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_pipe.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_rectangle_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_rectangle_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_round_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_round_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_sheet.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_sheet.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_square_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_square_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/copper/copper_tee.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/copper/copper_tee.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -142,64 +142,64 @@
     <!-- Stainless Steel Products --> 
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_angle.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_angle.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_circle.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_circle.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_coil.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_coil.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_flat.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_flat.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_perforated_sheet.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_perforated_sheet.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_pipe.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_pipe.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_round_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_round_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_sheet.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_sheet.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/ss/stainless_steel_square_pipe.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/ss/stainless_steel_square_pipe.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -210,29 +210,29 @@
     <!-- Brass Products --> 
 
     <url>
-        <loc>https://www.republicmetals.in/products/brass/brass_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/brass/brass_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/brass/brass_flat.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/brass/brass_flat.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/brass/brass_pipe.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/brass/brass_pipe.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/brass/brass_sheet.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/brass/brass_sheet.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -243,22 +243,22 @@
     <!-- Aluminium Products --> 
 
     <url>
-        <loc>https://www.republicmetals.in/products/aluminium/aluminium_round_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/aluminium/aluminium_round_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/aluminium/aluminium_sheet.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/aluminium/aluminium_sheet.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.republicmetals.in/products/aluminium/aluminium_square_bar.html</loc>
-        <lastmod>2024-03-03</lastmod>
+        <loc>https://republicmetals.in/products/aluminium/aluminium_square_bar.html</loc>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
