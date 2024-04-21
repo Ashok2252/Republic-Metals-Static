@@ -45,3 +45,6 @@ https://www.republicmetals.in/products/aluminium/aluminium_round_bar.html
 https://www.republicmetals.in/products/aluminium/aluminium_sheet.html
 https://www.republicmetals.in/products/aluminium/aluminium_square_bar.html
 
+<!-- Gun Metal products -->
+https://republicmetals.in/products/gun-metal/gun-metal-bush.html
+https://republicmetals.in/products/gun-metal/gun-metal-rod.html
