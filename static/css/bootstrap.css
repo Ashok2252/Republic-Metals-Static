@@ -11449,7 +11449,7 @@ body {
 .feature-box-1 .iconn {
   width: 70px;
   height: 70px;
-  margin-left: 36%;
+  margin-left: 40%;
   line-height: 70px;
   background: linear-gradient(315deg, #024868, #57b9e0);
   ;
@@ -11641,6 +11641,7 @@ body {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   color: gray;
   font-size: 120%;
+  font-weight: 100;
   word-spacing: 10;
   letter-spacing: 10;
   margin-left: 20px;
@@ -11814,6 +11815,7 @@ body {
   font-size: 110%;
   word-spacing: 5;
   letter-spacing: 2;
+  font-weight: 400;
   margin-left: 10px;
   margin-right: 10px;
   text-align: justify;
@@ -12094,3 +12096,20 @@ body {
   font-weight: 400;
 }
 
+/* For WebKit-based browsers like Chrome and Safari */
+::-webkit-scrollbar {
+  width: 18px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightsalmon; /* Color of the thumb on hover */
+}

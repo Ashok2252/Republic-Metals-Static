@@ -17,9 +17,7 @@
     />
     <meta name="author" content="Copper Pipe Wholesale Distributor" />
     <link rel="canonical" href="https://republicmetals.in/" />
-    <title>
-      Copper Pipe and Sheet Wholesale Distributor - Republic Metals
-    </title>
+    <title>Copper Pipe and Sheet Wholesale Distributor - Republic Metals</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -58,68 +56,324 @@
     <!-- Navbar Placeholder -->
     <div id="navbar-placeholder"></div>
 
-    <!-- Banner Slider -->
-    <div
-      id="bannerSlider"
-      class="carousel slide"
-      data-ride="carousel"
-      data-interval="5000"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+    <section>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
           <img
             src="./static/img/banner/banner_1.jpg"
             class="d-block w-100"
-            style="height: 95vh; object-fit: cover"
             alt="Copper Pipe Manufacturer in Ahmedabad - Republic Metals"
           />
+          <div class="cover">
+            <!-- <div class="container"> -->
+            <div class="header-content">
+              <div class="line"></div>
+              <h2>Discover the Versatility of</h2>
+              <h1>Copper Pipe</h1>
+              <h4>
+                Experience the Durability and Flexibility of Copper Pipes for
+                Your Plumbing Solutions
+              </h4>
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
-        <div class="carousel-item">
+        <div class="item">
           <img
             src="./static/img/banner/banner_2.jpg"
             class="d-block w-100"
-            style="height: 95vh; object-fit: cover"
             alt="SS Pipe Manufacturer in Ahmedabad - Republic Metals "
           />
+          <div class="cover">
+            <!-- <div class="container"> -->
+            <div class="header-content">
+              <div class="line"></div>
+              <h2>Explore the Quality of</h2>
+              <h1>Stainless Steel Pipe</h1>
+              <h4>
+                Experience Longevity and Corrosion Resistance with Stainless
+                Steel Pipes for Various Applications
+              </h4>
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
-        <div class="carousel-item">
+        <div class="item">
           <img
             src="./static/img/banner/banner_333.png"
             class="d-block w-100"
-            style="height: 95vh; object-fit: cover"
             alt="Copper Sheet Manufacturer in Ahmedabad - Republic Metals"
           />
+          <div class="cover">
+            <!-- <div class="container"> -->
+            <div class="header-content">
+              <div class="line"></div>
+              <h2>Unlock the Potential of</h2>
+              <h1>Copper Sheet</h1>
+              <h4>
+                Experience Exceptional Strength and Flexibility with Copper
+                Sheets for Diverse Uses
+              </h4>
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
-        <div class="carousel-item">
+        <div class="item">
+          <img
+            src="./static/img/banner/brass_pipe.jpg"
+            class="d-block w-100"
+            alt="Brass Pipe Supplier in Ahmedabad - Republic Metals "
+          />
+          <div class="cover">
+            <!-- <div class="container"> -->
+            <div class="header-content">
+              <div class="line animated bounceInLeft"></div>
+              <h2>Experience the Superiority of</h2>
+              <h1>Brass Pipe</h1>
+              <h4>
+                Discover Superior Quality and Durability with Brass Pipes for
+                Various Applications
+              </h4>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="item">
           <img
             src="./static/img/banner/banner_44.jpg"
             class="d-block w-100"
-            style="height: 95vh; object-fit: cover"
             alt="Copper Coil Manufacturer in Ahmedabad - Republic Metals "
           />
+          <div class="cover">
+            <!-- <div class="container"> -->
+            <div class="header-content">
+              <div class="line animated bounceInLeft"></div>
+              <h2>Discover the Efficiency of</h2>
+              <h1>Copper Coil</h1>
+              <h4>
+                Experience Consistent Performance and Reliability with Copper
+                Coils for Various Applications
+              </h4>
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
       </div>
 
-      <!-- Navigation buttons -->
-      <a
-        class="carousel-control-prev"
-        href="#bannerSlider"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#bannerSlider"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script>
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          dots: false,
+          nav: true,
+          mouseDrag: true,
+          autoplay: true,
+          animateOut: "fadeOut",
+          autoplayTimeout: 7500,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      </script>
+      <style>
+        .item {
+          height: 75vh;
+          position: relative;
+        }
+        .item img {
+          width: 100%;
+          height: 75vh;
+          object-fit: cover;
+        }
+        .item .cover {
+          padding: 75px 0;
+          position: absolute;
+          width: 100%;
+          height: 75vh;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.6);
+          display: flex;
+          align-items: center;
+        }
+        .item .cover .header-content {
+          position: relative;
+          padding: 56px;
+          left: 5vw;
+          overflow: hidden;
+        }
+        .item .cover .header-content .line {
+          content: "";
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          left: 0vw;
+          top: 0;
+          position: absolute;
+          border: 9px solid;
+          -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+          clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+          /* background: linear-gradient(to right, grey, orange); */
+          border-image: linear-gradient(
+            to top right,
+            #edebe6,
+            #efb385,
+            #e28a42
+          );
+          border-image-slice: 1;
+        }
+        .item .cover .header-content h2 {
+          font-weight: 400;
+          font-size: 35px;
+          background: linear-gradient(to top right, #edebe6, #ead9ca, #f6d1aa);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+        .item .cover .header-content h1 {
+          font-size: 56px;
+          font-weight: 600;
+          margin: 5px 0 20px;
+          word-spacing: 3px;
+          background: linear-gradient(to top right, #edebe6, #f2a96a, #ff8808);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+
+        .item .cover .header-content h4 {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 36px;
+          background: linear-gradient(to top right, #edebe6, #eaded4, #ecbf8f);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+
+        .owl-item.active h1 {
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          animation-name: slide;
+          animation-delay: 0.3s;
+        }
+        .owl-item.active h2 {
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          animation-name: slide;
+          animation-delay: 0.3s;
+        }
+        .owl-item.active h4 {
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          animation-name: slide;
+          animation-delay: 0.3s;
+        }
+        .owl-item.active .line {
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          animation-name: fadeInLeft;
+          animation-delay: 1s;
+        }
+        .owl-nav .owl-prev {
+          position: absolute;
+          left: 15px;
+          top: 43%;
+          opacity: 0;
+          -webkit-transition: all 0.4s ease-out;
+          transition: all 0.4s ease-out;
+          background: rgba(0, 0, 0, 0.5) !important;
+          width: 40px;
+          cursor: pointer;
+          height: 40px;
+          position: absolute;
+          display: block;
+          z-index: 1000;
+          border-radius: 0;
+        }
+        .owl-nav .owl-prev span {
+          font-size: 1.6875rem;
+          color: #fff;
+        }
+        .owl-nav .owl-prev:focus {
+          outline: 0;
+        }
+        .owl-nav .owl-prev:hover {
+          background: #000 !important;
+        }
+        .owl-nav .owl-next {
+          position: absolute;
+          right: 15px;
+          top: 43%;
+          opacity: 0;
+          -webkit-transition: all 0.4s ease-out;
+          transition: all 0.4s ease-out;
+          background: rgba(0, 0, 0, 0.5) !important;
+          width: 40px;
+          cursor: pointer;
+          height: 40px;
+          position: absolute;
+          display: block;
+          z-index: 1000;
+          border-radius: 0;
+        }
+        .owl-nav .owl-next span {
+          font-size: 1.6875rem;
+          color: #fff;
+        }
+        .owl-nav .owl-next:focus {
+          outline: 0;
+        }
+        .owl-nav .owl-next:hover {
+          background: #000 !important;
+        }
+        section:hover .owl-prev {
+          left: 0px;
+          opacity: 1;
+        }
+        section:hover .owl-next {
+          right: 0px;
+          opacity: 1;
+        }
+
+        @keyframes fadeInLeft {
+          0% {
+            opacity: 0;
+            transform: translateX(-20px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      </style>
+    </section>
 
     <!-- Category Card -->
 
