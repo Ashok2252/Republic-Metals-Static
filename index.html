@@ -431,7 +431,7 @@
     </section>
 
     <!-- Popular Products -->
-    <div class="container mt-5">
+    <div class="container mt-5 slideanim">
       <h1 class="about-title text-center mb-4">POPULAR PRODUCTS</h1>
       <div class="row ml-2 mr-2">
         <!-- Add your popular products here -->
@@ -655,7 +655,7 @@
     <!-- ******************************************************************************************* -->
     <!-- Client Slider -->
 
-    <section class="section services-section mt-5">
+    <section class="section services-section mt-5 slideanim">
       <div class="containerfull mb-4">
         <h3 class="about-title mb-3">OUR CLIENTS</h3>
 
@@ -784,7 +784,7 @@
     <!-- Gallery Start -->
 
     <div id="references-masonry">
-      <div class="container">
+      <div class="container slideanim">
         <h3 class="about-title mb-3 mt-5">IMAGE GALLERY</h3>
         <br />
         <div class="row ml-2 mr-2">
@@ -920,8 +920,178 @@
       </div>
     </div>
 
+    <!-- statistics started -->
+
+    <!-- Insights Section -->
+
+    <h3 class="about-title mb-4 mt-5 slideanim">FEW INSIGHTS</h3>
+    <br />
+
+    <section class="counters">
+      <div class="container slideanim">
+        <div class="icon-container">
+          <i class="fas fa-users fa-4x"></i>
+          <div class="counter text-responsive" data-target="237">0</div>
+          <h3>Happy Customers</h3>
+        </div>
+        <div class="icon-container">
+          <i class="fas fa-shipping-fast fa-4x"></i>
+          <div class="counter text-responsive" data-target="799">0</div>
+          <h3>Orders Delivered</h3>
+        </div>
+        <div class="icon-container">
+          <i class="fas fa-smile fa-4x"></i>
+          <div class="counter text-responsive" data-target="97">0</div>
+          <h3>Customer Satisfaction Rate</h3>
+        </div>
+        <div class="icon-container">
+          <i class="fas fa-hands-helping fa-4x"></i>
+          <div class="counter text-responsive" data-target="24">0</div>
+          <h3>Hours Of Support</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="end-space"></div>
+
     <!-- Footer Placeholder -->
     <div id="footer-placeholder"></div>
+
+    <style>
+      .counters {
+        background: linear-gradient(
+          135deg,
+          rgb(255, 183, 116),
+          rgb(233, 146, 64),
+          rgb(182, 91, 17)
+        );
+        color: #f2f2f2;
+        padding: 40px 40px;
+      }
+
+      .counters .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        text-align: center;
+      }
+
+      .counters i {
+        color: rgb(113, 68, 26);
+        margin-bottom: 5px;
+      }
+
+      .counters .counter {
+        font-size: 45px;
+        margin: 15px 0;
+      }
+
+      @media (max-width: 700px) {
+        .counters .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .counters .container > div:nth-of-type(1),
+        .counters .container > div:nth-of-type(2) {
+          border-bottom: 1px lightskyblue solid;
+          padding-bottom: 20px;
+        }
+      }
+
+      .icon-container:hover .fa-users {
+        animation: bounce 0.5s infinite alternate;
+      }
+
+      .icon-container:hover .fa-smile {
+        animation: smile 0.5s infinite alternate;
+      }
+
+      .icon-container:hover .fa-shipping-fast {
+        animation: rotate 0.5s infinite linear;
+      }
+
+      .icon-container:hover .fa-hands-helping {
+        animation: shake 0.5s infinite alternate;
+      }
+
+      @keyframes bounce {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-5px);
+        }
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(5px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes shake {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-5px);
+        }
+      }
+
+      @keyframes smile {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.2) rotate(-10deg);
+        }
+      }
+    </style>
+
+    <script>
+      const counters = document.querySelectorAll(".counter");
+      const speed = 500; // The lower the slower
+
+      // Find the maximum difference between target and current values among all counters
+      let maxDiff = 0;
+      counters.forEach((counter) => {
+        const target = +counter.getAttribute("data-target");
+        const diff = target - +counter.innerText;
+        maxDiff = Math.max(maxDiff, diff);
+      });
+
+      console.log("Max Difference:", maxDiff);
+
+      // Calculate the increment based on the maximum difference and speed
+      const inc = Math.ceil(maxDiff / speed);
+
+      counters.forEach((counter) => {
+        const target = +counter.getAttribute("data-target");
+        const updateCount = () => {
+          const count = +counter.innerText;
+
+          // Add inc to count and output in counter
+          counter.innerText = Math.min(count + inc, target);
+
+          // Check if target is reached
+          if (+counter.innerText < target) {
+            // Call function every frame
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.innerText = target;
+            counter.insertAdjacentHTML("beforeend", "+");
+          }
+        };
+
+        updateCount();
+      });
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="index.js"></script>
@@ -949,6 +1119,46 @@
       // Include navbar and footer
       includeNavbar();
       includeFooter();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 700) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+      });
     </script>
   </body>
 </html>
