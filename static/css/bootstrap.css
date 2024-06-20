@@ -10397,8 +10397,9 @@ body {
 }
 
 .btn-hover.color-1 {
-  background-image: linear-gradient(to right, #3392c9, #094a80, #332d2d, #644c28);
-  box-shadow: 0 4px 20px 0 rgba(113, 166, 226, 0.75);
+  /* background-image: linear-gradient(to right, #3392c9, #094a80, #332d2d, #644c28); */
+  background-image: linear-gradient(to right, #f0a567, #d46a13, #332d2d, #644c28);
+  box-shadow: 0 4px 20px 0 rgba(250, 192, 145, 0.75);
   transition: 0.8s;
 }
 
@@ -11640,8 +11641,8 @@ body {
 .missiontext {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   color: gray;
-  font-size: 120%;
-  font-weight: 400;
+  font-size: 110%;
+  font-weight: 350;
   word-spacing: 10;
   letter-spacing: 10;
   margin-left: 20px;
@@ -11656,7 +11657,7 @@ body {
 .missiontext:hover {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   color: goldenrod;
-  font-size: 120%;
+  font-size: 110%;
   word-spacing: 10;
   letter-spacing: 10;
   text-align: justify;
