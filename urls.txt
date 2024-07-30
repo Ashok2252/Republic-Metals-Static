@@ -30,7 +30,7 @@ https://www.republicmetals.in/products/ss/stainless_steel_perforated_sheet.html
 https://www.republicmetals.in/products/ss/stainless_steel_pipe.html
 https://www.republicmetals.in/products/ss/stainless_steel_round_bar.html
 https://www.republicmetals.in/products/ss/stainless_steel_sheet.html
-https://www.republicmetals.in/products/ss/stainless_steel_square_pipe.html
+https://www.republicmetals.in/products/ss/stainless-steel-square-pipe.html
 
 <!--BrassProducts-->
 https://www.republicmetals.in/products/brass/brass_bar.html
