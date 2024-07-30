@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="og:title" content="ABOUT US | Republic Metals - Ahmedabad">
   <meta name="og:description"
-    content="Republic Metals is one of the leading Wholesale Distributor of Copper Pipes , Copper Sheets and various Copper & Stainless Steel Products | Our Products are very well accepted in the Domestic Market as well as in the International Market for their High Quality Standard, Reliability, Prompt Delivery & Competitive Pricing.">
+    content="Republic Metals is a leading wholesale distributor specializing in high-quality copper pipes, copper sheets, and a variety of copper and stainless steel products. Renowned for our commitment to reliability, prompt delivery, and competitive pricing, we serve both domestic and international markets with top-notch standards." />
   <meta name="keywords"
-    content="Copper Pipe , Copper Sheet , Copper Tee , Copper Elbow , SS Pipe , SS Sheet , Perforated Sheet , Wholesale , Wholesale Distributor , Rakhial , Ahmedabad , Gujarat">
+    content="Copper Pipes, Copper Sheets, Copper Tee, Copper Elbow, SS Pipes, SS Sheets, Perforated Sheets, Wholesale Distributor, Copper and Stainless Steel Products, High-Quality Copper Products, Reliable Copper Supplier, Competitive Pricing Copper, Industrial Copper Supplier, Rakhial, Ahmedabad, Gujarat" />
   <meta name="author" content="Copper Pipe Wholesale Distributor">
   <title>ABOUT US | REPUBLIC METALS</title>
   <link rel="canonical" href="https://republicmetals.in/about.html" />
@@ -45,7 +45,7 @@
 
   <section id="showcase-inner" class="py-5 text-white">
     <div class="container">
-      
+
       <div class="row text-center">
         <div class="col-md-12">
           <h6 class="display-4 text-responsive" style="font-family: cursive; color: azure">
@@ -524,41 +524,41 @@
 
   <script>
     const counters = document.querySelectorAll(".counter");
-      const speed = 500; // The lower the slower
+    const speed = 500; // The lower the slower
 
-      // Find the maximum difference between target and current values among all counters
-      let maxDiff = 0;
-      counters.forEach((counter) => {
-        const target = +counter.getAttribute("data-target");
-        const diff = target - +counter.innerText;
-        maxDiff = Math.max(maxDiff, diff);
-      });
+    // Find the maximum difference between target and current values among all counters
+    let maxDiff = 0;
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target");
+      const diff = target - +counter.innerText;
+      maxDiff = Math.max(maxDiff, diff);
+    });
 
-      console.log("Max Difference:", maxDiff);
+    console.log("Max Difference:", maxDiff);
 
-      // Calculate the increment based on the maximum difference and speed
-      const inc = Math.ceil(maxDiff / speed);
+    // Calculate the increment based on the maximum difference and speed
+    const inc = Math.ceil(maxDiff / speed);
 
-      counters.forEach((counter) => {
-        const target = +counter.getAttribute("data-target");
-        const updateCount = () => {
-          const count = +counter.innerText;
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target");
+      const updateCount = () => {
+        const count = +counter.innerText;
 
-          // Add inc to count and output in counter
-          counter.innerText = Math.min(count + inc, target);
+        // Add inc to count and output in counter
+        counter.innerText = Math.min(count + inc, target);
 
-          // Check if target is reached
-          if (+counter.innerText < target) {
-            // Call function every frame
-            requestAnimationFrame(updateCount);
-          } else {
-            counter.innerText = target;
-            counter.insertAdjacentHTML("beforeend", "+");
-          }
-        };
+        // Check if target is reached
+        if (+counter.innerText < target) {
+          // Call function every frame
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target;
+          counter.insertAdjacentHTML("beforeend", "+");
+        }
+      };
 
-        updateCount();
-      });
+      updateCount();
+    });
 
   </script>
 
@@ -571,8 +571,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xM6B5z6W5"
     crossorigin="anonymous"></script>
-  
-    <!-- Responsive Navbar -->
+
+  <!-- Responsive Navbar -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
