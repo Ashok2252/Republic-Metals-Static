@@ -6,6 +6,7 @@ https://www.republicmetals.in/copper_products.html
 https://www.republicmetals.in/ss_products.html
 https://www.republicmetals.in/brass_products.html
 https://www.republicmetals.in/aluminium_products.html
+https://republicmetals.in/ms-products.html
 
 <!--CopperProducts-->
 https://www.republicmetals.in/products/copper/copper_angle.html
@@ -48,3 +49,6 @@ https://www.republicmetals.in/products/aluminium/aluminium_square_bar.html
 <!-- Gun Metal products -->
 https://republicmetals.in/products/gun-metal/gun-metal-bush.html
 https://republicmetals.in/products/gun-metal/gun-metal-rod.html
+
+<!-- MS Products -->
+
