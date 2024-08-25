@@ -241,6 +241,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
+  border-radius: 4%;
 }
 
 .button-containerr {
