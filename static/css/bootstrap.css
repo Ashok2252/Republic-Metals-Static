@@ -549,6 +549,25 @@ mark,
   height: auto;
 }
 
+/* Ensures image is responsive across all screen sizes */
+.img-responsive {
+  max-width: 75%;
+  height: auto;
+}
+
+/* Adjust image size for smaller screens */
+@media (max-width: 767px) {
+  .img-responsive {
+    max-width: 50%; /* Scale down the image to 50% of the container width on smaller screens */
+  }
+
+  /* Optional: Center the image on small screens */
+  .text-center {
+    text-align: center;
+  }
+}
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11642,7 +11661,7 @@ body {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   color: gray;
   font-size: 110%;
-  font-weight: 350;
+  font-weight: 450;
   word-spacing: 10;
   letter-spacing: 10;
   margin-left: 20px;
