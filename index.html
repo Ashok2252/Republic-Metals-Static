@@ -1097,7 +1097,7 @@
     includeFooter();
   </script>
 
-  <script>
+  <!-- <script>
     $(document).ready(function () {
       // Add smooth scrolling to all links in navbar + footer link
       $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
@@ -1129,13 +1129,57 @@
           var pos = $(this).offset().top;
 
           var winTop = $(window).scrollTop();
-          if (pos < winTop + 700) {
+          if (pos < winTop + $(window).height() - 100) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    });
+  </script> -->
+
+  <script>
+    $(document).ready(function () {
+      // Smooth scrolling for navbar and footer links
+      $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+        // Ensure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Smooth page scroll using jQuery's animate() method
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900, // 900ms duration for smooth scrolling
+            function () {
+              // Add hash (#) to URL when done scrolling
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      // Scroll animation trigger at 70% of the viewport
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;  // Get the element's top position
+          var winTop = $(window).scrollTop();  // Get current scroll position
+          var winHeight = $(window).height();  // Get the window height
+
+          // Trigger animation when the element is at 70% of the screen height
+          if (pos < winTop + winHeight * 0.7) {
             $(this).addClass("slide");
           }
         });
       });
     });
   </script>
+
+
 </body>
 
 </html>
