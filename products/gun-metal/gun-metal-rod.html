@@ -342,9 +342,33 @@
         });
     }
 
-    // Include navbar and footer
-    includeNavbar();
-    includeFooter();
+    // Wait for the DOM to be fully loaded before running the script
+    document.addEventListener("DOMContentLoaded", function () {
+      // Include navbar and footer
+      includeNavbar();
+      includeFooter();
+
+      // Wait 30 seconds before showing the popup
+      setTimeout(function () {
+        if (!localStorage.getItem("popupShown")) {
+          // Only show the popup if it hasn't been shown before
+          document.getElementById("popup").style.display = "flex";
+          localStorage.setItem("popupShown", "true");
+        }
+      }, 8000); // 30 seconds = 30000 milliseconds
+
+      // Close popup when the close button is clicked
+      document.getElementById("popup-close")?.addEventListener("click", function () {
+        document.getElementById("popup").style.display = "none";
+      });
+
+      // Close popup if the user clicks anywhere outside the popup content
+      window.onclick = function (event) {
+        if (event.target === document.getElementById("popup")) {
+          document.getElementById("popup").style.display = "none";
+        }
+      };
+    });
   </script>
 
   <!-- Responsive Navbar -->
